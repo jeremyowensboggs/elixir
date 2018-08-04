@@ -378,7 +378,7 @@ defmodule ExUnit.AssertionsTest do
       error in [ExUnit.AssertionError] ->
         """
         No message matching x when x == :hello after 0ms.
-        Showing only 10 messages of 11\
+        Showing only last 10 messages of 11\
         """ = error.message
     end
   end
